@@ -12,7 +12,7 @@ RUN pipenv install --deploy --system && \
     rm -rf /root/.cache
 
 COPY spam_website.bin /app/
-COPY ["app.py", "./"]
+COPY ["spam_website.bin", "app.py", "./"]
 
 
 EXPOSE 9696
