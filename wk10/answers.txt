@@ -1,0 +1,23 @@
+Q1
+
+(ml-zoomcamp) D:\code\Zoomcamps\ml-zoomcamp-hw\wk10>python q6_test.py
+{'has_subscribed': True, 'has_subscribed_probability': 0.756743795240796}
+
+Q2
+
+D:\apps\kind>kind --version
+kind version 0.25.0
+
+Q3
+
+The smallest deployable computing unit in Kubernetes is a Pod.
+
+Q4
+
+D:\apps\kind>kubectl get services
+NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   102s
+
+Q5
+
+kind load docker-image zoomcamp-model:3.11.5-hw10
